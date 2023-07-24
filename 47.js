@@ -1,13 +1,19 @@
 // hoisting
 
-// function only access in fuction deceleration
+// function only access in fuction declaration
 
-hello();
+// hello();
 
 // let hello = () => {
 //     console.log("inside func");
 // }
 
-function hello(){
-    console.log("hello");
-}
+// function hello(){
+//     console.log("hello");
+// }
+
+console.log(hello);
+
+var hello = "hello world";
+
+console.log(hello);
